@@ -8,7 +8,7 @@ client.on('ready', () => {
 
 client.on('ready', async() => {
 var server = "460493310000103431"; // ايدي السررفر
-var channel = "508267035965390849";//ايدي الروم
+var channel = "507527849624993803";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('**Salem , Salem , Salem , Salem , Salem , Salem , Salem , Salem , Salem , Salem , Salem , Salem , Salem , Salem , Salem , Salem , Salem , Salem , **')
     },305);
@@ -23,7 +23,7 @@ client.on('message', message => {
 
   let args = message.content.split(" ").slice(1);
 
-  if (command == "13say") {
+  if (command == "14say") {
 if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('?|**\`ADMINISTRATOR\`ليس لديك صلاحيات`**');
    message.channel.sendMessage(args.join("  "))
    message.delete()
